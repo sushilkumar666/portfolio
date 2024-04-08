@@ -1,5 +1,6 @@
 import React from 'react'
 import '../App.css'
+import { Reveal } from './Reveal'
 
 function Header() {
     return (
@@ -8,7 +9,9 @@ function Header() {
             <div className='header-main'>
                 <div className='header'>
                     <div>
+                        <Reveal>
                         <div className='LOGO'>Arman <span style={{color:"rgb(14, 40, 91)"}}>s.</span></div>
+                        </Reveal>
                     </div>
                     <div className='links-main'>
                         <div className='links' style={{visibility:"hidden"}}>

@@ -23,7 +23,7 @@ import express from '../assets/express.png'
 
 
 
-
+import { Reveal } from './Reveal'
 
 function Skill() {
     return (
@@ -35,8 +35,8 @@ function Skill() {
                 </div>
                 <div className='skill-container'>
                     <div className='skill'>
-                        <div className='myname'>Below is my &nbsp; skill </div>
-                        <p style={{ color: "rgb(84, 84, 84)", fontFamily: "sans-serif" }}>Below Mentioned is My Technical Skill  </p>
+                        <Reveal><div className='myname'>Below is my &nbsp; skill </div></Reveal>
+                        <Reveal><p style={{ color: "rgb(84, 84, 84)", fontFamily: "sans-serif" }}>Below Mentioned is My Technical Skill  </p></Reveal>
                     </div>
                 </div>
                 <div className='skill-container'>
@@ -44,7 +44,9 @@ function Skill() {
                         <div className='skill-div'>
                             <div className='slikone'>
                                 <p>&nbsp;</p>
+                            <Reveal>
                             <div style={{color:"#788898", fontSize:"40px", letterSpacing:"3px"}} className='myname'>Out of 100%, I am 70% frontend engineer and 30% backend engineer. </div>
+                            </Reveal>
                                                                  
                                <div>
                                 

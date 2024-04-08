@@ -5,6 +5,7 @@ import c from '../assets/3.png'
 import w from '../assets/w.png'
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2'
+import { Reveal } from './Reveal'
 
 
 export default function Contact() {
@@ -19,6 +20,7 @@ export default function Contact() {
             icon: 'success',
             confirmButtonText: 'OK'
         });
+        window.location.reload();
 
     }
 
@@ -34,10 +36,10 @@ export default function Contact() {
 
                 <div className='contact-container'>
                     <div className='contant1'>
-                        <div className='myname'>Contact Me </div>
-                        <div><p><i class="fa fa-phone"></i>&nbsp;<a href="tel:+91 7091554628">+91 7091554628</a></p></div>
-                        <div><p><i class="fa fa-whatsapp"></i>&nbsp;<a href="#">+91 7091554628</a></p></div>
-                        <div><p><i id="con-icon" class="fa fa-envelope"></i>&nbsp;<a href="mailto: +91 7091554628">mdarmanshekh4@gmail.com</a></p></div>
+                        <Reveal><div className='myname'>Contact Me </div></Reveal>
+                        <Reveal><div><p><i class="fa fa-phone"></i>&nbsp;<a href="tel:+91 7091554628">+91 7091554628</a></p></div></Reveal>
+                        <Reveal><div><p><i class="fa fa-whatsapp"></i>&nbsp;<a href="#">+91 7091554628</a></p></div></Reveal>
+                        <Reveal><div><p><i id="con-icon" class="fa fa-envelope"></i>&nbsp;<a href="mailto: +91 7091554628">mdarmanshekh4@gmail.com</a></p></div></Reveal>
                         <p>&nbsp;</p>
                         <div className='social-icons'>
                             <a href="https://www.facebook.com/mdarman.shekh.5201"><div><i class="fa fa-facebook-f"></i></div></a>

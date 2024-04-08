@@ -2,10 +2,7 @@ import React from 'react'
 import a from '../assets/1.png'
 import b from '../assets/2.png'
 import c from '../assets/3.png'
-import aiftp from '../assets/aiftp.jpg'
-import ctc from '../assets/ctc.jpg'
-import wirc from '../assets/wirc.jpg'
-import gstpam from '../assets/gstpam.png'
+import { Reveal } from './Reveal'
 
 
 
@@ -15,47 +12,82 @@ function Experience() {
         <>
             <div className='project-main'>
                 <div className='project-bg'>
-                <img style={{ left: "47%", filter:'blur(140px)' }} src={a} alt="a" />
-                    <img style={{ left: "80%", top:"-30px", filter:'blur(140px)' }} src={c} alt="a" />
+                    <img style={{ left: "47%", filter: 'blur(140px)' }} src={a} alt="a" />
+                    <img style={{ left: "80%", top: "-30px", filter: 'blur(140px)' }} src={c} alt="a" />
 
                 </div>
-                <div className='project-content'>
-                    <div className='exs-container'>
-                        <div>
-                            <div>
-                                <div className='myname'>My &nbsp; Experience </div>
-                                <p style={{ color: "rgb(84, 84, 84)", fontFamily: "sans-serif" }}>Below is my working experience from start to till now   </p>
-                            </div>
+                <div className='timeline-main'>
+                    <div className='timeline-container'>
+                        <nav class="jump-to">
+                            <ul>
+                                <Reveal>
+                                    <div className='myname'>Experiences &  Education </div>
+                                </Reveal>
 
-                            <div>
-                            <div style={{ width: "400px" }} id='ex1'>
-                                <p className='p'>&nbsp;</p>
-                                <div className='card-no'>01</div>
-                                <div className='card-haeding'>Front End Engineer - Intern</div><br />
-                                <span style={{ fontFamily: "sans-serif" }}>HashbaSoft Pvt, Ltd</span><br />
-                                <span style={{ fontFamily: "sans-serif", lineHeight:"34px" }}>10/11/2021 - 24/02/2022</span><br /><br />
-                                <span style={{ fontFamily: "sans-serif" }}> <b>Redevlope Multiple Api End to End and decraesed response time 32%</b> </span><br /><br />
+                            </ul>
+                        </nav>
 
-                                <span style={{ fontFamily: "sans-serif" }}>There worked as a front development engineer and contributed to User Interface in multiple client-based project.</span><br /><br />
-                                <span style={{ fontFamily: "sans-serif" }}>Maintain and Handle Multiple Client Wordpress Website, <b>[aiftponline.org, ctconline.org, gstpam.org]</b></span><br /><br />
-                            </div>
+                        <div class="timelines">
 
-                            </div>
+                            <section class="timeline education">
+                                <Reveal>
+                                    <h2 class="timeline-title" id="education">Education</h2>
+                                </Reveal>
+                                <Reveal>
+                                    <ul class="timeline-items">
+                                        <li class="timeline-item">
+                                            <h3>Bachlor of Science Information of Technology</h3>
+                                            <p class="date-interval">
+                                                <time datetime="2017-09">2019</time> &ndash; <time datetime="2019-07">2023</time>
+                                            </p>
+                                            <p class="location">Akbar Peerbhoy Collage Commerce & Economics, Mumbai, Maharastra, India</p>
+                                        </li>
+                                        <li class="timeline-item">
+                                            <h3>Intermediate Science</h3>
+                                            <p class="date-interval">
+                                                <time datetime="2011-09">2017</time> &ndash; <time datetime="2017-07">2019</time>
+                                            </p>
+                                            <p class="location">RBR High School Rafignaj, Aurangabad, Bihar</p>
+                                        </li>
+                                        <li class="timeline-item">
+                                            <h3>Primary School Manjkhard</h3>
+                                            <p class="location">ManjKhard Rafiganj, Aurangabad, Bihar</p>
+                                        </li>
+                                    </ul>
+                                </Reveal>
+                            </section>
+
+                            <section class="timeline experience" id='exeperienc2'>
+                                <Reveal>
+                                    <h2 class="timeline-title" id="experience" >Experience</h2>
+                                </Reveal>
+
+                                <Reveal>
+                                    <ul class="timeline-items">
+                                        <li class="timeline-item">
+                                            <h3>Junior Front End Engineer</h3>
+                                            <p class="date-interval">
+                                                <time datetime="2021-04">Nove, 2022</time> &ndash; <time datetime="2023">Present</time>
+                                            </p>
+
+                                        </li>
+                                        <li class="timeline-item">
+                                            <h3>Worldex India Pvt Ltd,</h3>
+                                            <p class="location">Lower Parel, Mumabi, 400013</p>
+                                        </li>
+                                        <li class="timeline-item">
+                                            <h3>Works & Techonolgy</h3>
+                                            <p class="location">25+ Dead wesbite converted into fast and fully optimized website with SEO, Load time Decreased 10s to 6s, Performance increased 67% to 97%</p>
+                                            <p class="location">Wrote  highly scalable, secure and optimized full stack application for two shows to scratch and exhibitor, buyer and admin dashboard UI, in the latest technology</p>
+                                            <p class="location">  I Have created more than 8+ websites using React.js and Next.js and from scratch and alonlly. Those are fully optomized.</p>
+                                        </li>
+                                    </ul>
+                                </Reveal>
+                            </section>
+
                         </div>
-                        <div>
-                            <div style={{ width: "400px" }} id='ex1'>
-                                <p className='p'>&nbsp;</p>
-                                <div className='card-no'>02</div>
-                                <div className='card-haeding'>Front End Engineer</div><br />
-                                <span style={{ fontFamily: "sans-serif" }}>Worldex India Exhibitoion Promotion Pvt Ltd</span><br />
-                                <span style={{ fontFamily: "sans-serif",lineHeight:"34px" }}>19-08-2022 to Present</span><br /><br />
-                                <span style={{ fontFamily: "sans-serif" }}>Wrote highly <b>scalable, secure and optimized</b> backend for  two shows to scratch and <b>exhibitor, buyer and admin dashboard UI</b>, in the latest technology</span><br />
-                                <span style={{ fontFamily: "sans-serif" }}><strong>Note</strong> : Previous backend was built in php, MySQL, new backend build on  redux toolkit with node express, mongodb, and react, RTK queries, JWT authentication.</span><br /><br />
-                                <span style={{ fontFamily: "sans-serif" }}>Converted <b>15+</b> dead websites in fast  performance, fully optimized including SEO, and decreased load time from <b>10s to below 6s</b>.</span><br /><br />
-                                <span style={{ fontFamily: "sans-serif" }}>I Have created more than 8+ websites  using <b>React.js and Next.js</b> and from scratch and alonlly. Those are fully optomized.</span>
-                            </div>
 
-                        </div>
+
                     </div>
                 </div>
             </div>
