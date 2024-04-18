@@ -18,7 +18,7 @@ function Banner() {
                         <Reveal>
                         <div style={{ display: "flex", gap: "20px" }}>
                             <div><a className='button-81' href="tel:7091554628">Let's Talk &nbsp;  <i class="fa fa-phone"></i></a></div>
-                            <div><a className='button-81' href="https://armanportfolio-orpin.vercel.app/">Download CV &nbsp; <i class="fa fa-download"></i></a></div>
+                            <div><a className='button-81' href="../assets/frontenddeveloperresume.pdf">Download CV &nbsp; <i class="fa fa-download"></i></a></div>
                         </div>
                         </Reveal>
                         <div className='followme'>Follow Me  <i class="fa fa-long-arrow-right"></i> <span> &nbsp; &nbsp;
