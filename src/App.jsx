@@ -29,9 +29,9 @@ function App() {
           <Homemain />
           <p>&nbsp;</p>
           <p>&nbsp;</p>
-         
+
           <Projects />
-          
+
           <p>&nbsp;</p>
           <Experience />
           <p>&nbsp;</p>
@@ -46,11 +46,11 @@ function App() {
 
           <Contact />
           <p>&nbsp;</p>
-          <center style={{ padding: "10px" }}><span>©Arman s. All Rights Reserved
+          <center style={{ padding: "10px" }}><span>@Sushilkumar s. All Rights Reserved
           </span></center>
 
         </div>
-      
+
         <button class="button" onClick={scrollToTop}>
           <svg viewBox="0 0 384 512" class="svgIcon">
             <path
@@ -61,7 +61,7 @@ function App() {
         <AnimatedCursor />
 
       </div>
-    
+
     </>
   )
 }

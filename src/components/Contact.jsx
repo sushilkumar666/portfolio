@@ -37,9 +37,9 @@ export default function Contact() {
                 <div className='contact-container'>
                     <div className='contant1'>
                         <Reveal><div className='myname'>Contact Me </div></Reveal>
-                        <Reveal><div><p><i class="fa fa-phone"></i>&nbsp;<a href="tel:+91 7091554628">+91 7091554628</a></p></div></Reveal>
-                        <Reveal><div><p><i class="fa fa-whatsapp"></i>&nbsp;<a href="#">+91 7091554628</a></p></div></Reveal>
-                        <Reveal><div><p><i id="con-icon" class="fa fa-envelope"></i>&nbsp;<a href="mailto: +91 7091554628">mdarmanshekh4@gmail.com</a></p></div></Reveal>
+                        <Reveal><div><p><i class="fa fa-phone"></i>&nbsp;<a href="tel:+91 7249419687">+91 7249419687</a></p></div></Reveal>
+                        <Reveal><div><p><i class="fa fa-whatsapp"></i>&nbsp;<a href="#">+91 7249419687</a></p></div></Reveal>
+                        <Reveal><div><p><i id="con-icon" class="fa fa-envelope"></i>&nbsp;<a href="mailto:sushilssharma064@gmail.com">sushilssharma064@gmail.com</a></p></div></Reveal>
                         <p>&nbsp;</p>
                         <div className='social-icons'>
                             <a href="https://www.facebook.com/mdarman.shekh.5201"><div><i class="fa fa-facebook-f"></i></div></a>

@@ -26,7 +26,7 @@ function PersonalProject() {
                             </div></Reveal>
                             <div className='go-git'>
                                 <div className='button-81'><a href="">Go Live &nbsp; <i class="fa fa-paper-plane"></i></a> </div>
-                                <div className='button-81'><a href="https://github.com/ArmanA12/Whiteboard">Github &nbsp; <i style={{ fontSize: "22px" }} class="fa fa-github-square"></i></a></div>
+                                <div className='button-81'><a href="https://github.com/sushilkumar666">Github &nbsp; <i style={{ fontSize: "22px" }} class="fa fa-github-square"></i></a></div>
                             </div>
                         </div>
                         <div className='p-card'>
@@ -34,8 +34,8 @@ function PersonalProject() {
                             <Reveal><div><img src={insta} alt="1" /></div></Reveal>
                             <Reveal><div><h3>Instagram Clone : Like Instagram</h3></div></Reveal>
                             <div className='go-git'>
-                                <div className='button-81'><a href="https://peinsta.netlify.app/">Go Live &nbsp; <i class="fa fa-paper-plane"></i> </a></div>
-                                <div className='button-81'><a href="https://github.com/ArmanA12/PeInsta">Github &nbsp; <i style={{ fontSize: "22px" }} class="fa fa-github-square"></i></a></div>
+                                <div className='button-81'><a href="">Go Live &nbsp; <i class="fa fa-paper-plane"></i> </a></div>
+                                <div className='button-81'><a href="">Github &nbsp; <i style={{ fontSize: "22px" }} class="fa fa-github-square"></i></a></div>
                             </div>
                         </div>
                         <div className='p-card'>
@@ -43,8 +43,8 @@ function PersonalProject() {
                             <Reveal><div><img src={emc} alt="1" /></div></Reveal>
                             <Reveal><div><h3>E-Commerce: Lile Amazone, Flipkart</h3></div></Reveal>
                             <div className='go-git'>
-                                <div className='button-81'><a href="https://dummy-e.netlify.app/">Go Live &nbsp; <i class="fa fa-paper-plane"></i> </a></div>
-                                <div className='button-81'><a href="https://github.com/ArmanA12/Dummy-e">Github &nbsp; <i style={{ fontSize: "22px" }} class="fa fa-github-square"></i></a></div>
+                                <div className='button-81'><a href="">Go Live &nbsp; <i class="fa fa-paper-plane"></i> </a></div>
+                                <div className='button-81'><a href="">Github &nbsp; <i style={{ fontSize: "22px" }} class="fa fa-github-square"></i></a></div>
                             </div>
                         </div>
                     </div>
