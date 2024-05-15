@@ -1,5 +1,5 @@
 import React from 'react'
-import sushil from '../assets/sushil-image.jpeg'
+import sushil from '../assets/sushil-image.png'
 import { Reveal } from './Reveal'
 
 function Banner() {
@@ -17,8 +17,8 @@ function Banner() {
                         </Reveal>
                         <Reveal>
                             <div style={{ display: "flex", gap: "20px" }}>
-                                <div><a className='button-81' href="tel:7091554628">Let's Talk &nbsp;  <i class="fa fa-phone"></i></a></div>
-                                <div><a className='button-81' href="/src/assets/frontenddeveloperresume.pdf">Download CV &nbsp; <i class="fa fa-download"></i></a></div>
+                                <div><a className='button-81' href="tel:7249419687">Let's Talk &nbsp;  <i class="fa fa-phone"></i></a></div>
+                                <div><a className='button-81' href="/src/assets/sushil-resume-2024.pdf">Download CV &nbsp; <i class="fa fa-download"></i></a></div>
                             </div>
                         </Reveal>
                         <div className='followme'>Follow Me  <i class="fa fa-long-arrow-right"></i> <span> &nbsp; &nbsp;

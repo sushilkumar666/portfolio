@@ -6,7 +6,7 @@ import Projects from './components/Projects'
 import Experience from './components/Experience'
 import Skill from './components/Skills'
 import Contact from './components/Contact'
-import PersonalProject from './components/PersonalProject'
+// import PersonalProject from './components/PersonalProject'
 import AnimatedCursor from './components/Animatedcursor'
 import { Reveal } from './components/Reveal.tsx'
 
@@ -38,7 +38,7 @@ function App() {
           <Skill />
           <p>&nbsp;</p>
           <p>&nbsp;</p>
-          <PersonalProject />
+          {/* <PersonalProject /> */}
           <p>&nbsp;</p>
           <p>&nbsp;</p>
           <p>&nbsp;</p>
